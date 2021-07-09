@@ -18,9 +18,9 @@ export default {
   <div class="container">
     <div class="row justify-content-center cardsectionheight mobilepadding">
       <div class="col-md-6 col-12 mt-4"></div>
-      <div class="col-md-6 col-12 mt-4 movetopcard ">
+      <div class="col-md-6 col-12 mt-4 movetopcard  pt-120 ">
         <div
-          class="card pricing-rates business-rate shadow bg-light rounded text-center "
+          class="card pricing-rates business-rate shadow bg-light rounded text-center"
         >
           <div class="card-body py-5">
             <h2 class="title mb-4 fw-900 cardtitle text-center">
@@ -128,6 +128,10 @@ export default {
 
   .mobilepadding {
     padding-top: 600px;
+  }
+
+    .pt-120 {
+    padding-top: 120px;
   }
 }
 

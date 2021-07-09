@@ -1,73 +1,63 @@
-
-
 .backgroundhero {
-    background-image: url('../img/head.png');
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    background-size: cover;
-    background-position: right 35% bottom 70%;
+  background-image: url("../img/head.png");
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: right 35% bottom 70%;
 }
 
 .bgform {
-    background-image: url('../img/bgform2.jpg');
-    background-size: cover;
+  background-image: url("../img/bgform2.jpg");
+  background-size: cover;
 }
 
 .thinkingsection {
-    background-image: url('../img/thinking.png');
-    height: 50vh;
-    background-size: cover;
-    position: relative;
-    background-position: right 35% bottom 20%;
+  background-image: url("../img/thinking.png");
+  height: 50vh;
+  background-size: cover;
+  position: relative;
+  background-position: right 35% bottom 20%;
 }
 
 .smallpadleft {
-    padding-left: 10px;
+  padding-left: 10px;
 }
-
-
 
 h2 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .heromobile {
-      background-position: left 75% bottom 80%;
-      
-    }
-    .mobilepadding {
-        padding-top: 1100px;
-    }
-    
-    .mobilepaddingfirstsection {
-        padding-top: 350px;
-    }
-
-    .mobilepadfooter 
-    {
-        padding-top: 30px;
-    }
-
-     h2 {
-        text-align:left !important;
-    }
-
-    .mobiletext {
-        text-align:left !important;
-
-    }
-
-    .mobilecardheight {
-        height: 120%;
-    }
-
-    .marginwhapp {
-        margin-bottom: 40px;
-    }
-
+  /* For mobile phones: */
+  .heromobile {
+    background-position: left 75% bottom 80%;
+  }
+  .mobilepadding {
+    padding-top: 1100px;
   }
 
+  .mobilepaddingfirstsection {
+    padding-top: 500px;
+  }
+
+  .mobilepadfooter {
+    padding-top: 30px;
+  }
+
+  h2 {
+    text-align: left !important;
+  }
+
+  .mobiletext {
+    text-align: left !important;
+  }
+
+  .mobilecardheight {
+    height: 120%;
+  }
+
+  .marginwhapp {
+    margin-bottom: 40px;
+  }
+}
